@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>LuxDrive</title>   
+</head>
+<body>
+    <header>
+        <div class="cont">
+            <nav class="navbar navbar-expand-lg bg-light">          
+                    <a class="navbar-brand" href="#">LuxDrive</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="acceuil.html">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="catalogue.html">Catalogue</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="constructeur.html">Constructeur</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-input me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+            </nav>
+        </div>
+    </header>
+    <main class="cont mt-4">
+        <div class="container-fluid">
+            <div class="jumbotron">
+                <div class="hero-banner">           
+                    <div class="title">
+                        <h1 id="hero-title">La route appartient aux légendes.</h1>
+                        <h2 id="hero-subtitle">Découvrez les plus grandes marques de voitures de sport.</h2>
+                        <a href="catalogue.html" class="btn btn-primary mt-4" id="hero-cta">Voir le catalogue</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="testimonials">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-10 col-xl-8 text-center">
+                <h3 class="mb-4">Avis clients</h3>
+              </div>
+            </div>
+            <div class="row text-center">
+              <div class="col-md-4 mb-5 mb-md-0">
+                <div class="d-flex justify-content-center mb-4">
+                </div>
+                <h5 class="mb-3">Alex M.</h5>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="px-xl-3">
+                  <i class="fas fa-quote-left pe-2"></i>La SF90 est un monstre. Merci LuxDrive !
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center mb-0">
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4 mb-5 mb-md-0">
+                <div class="d-flex justify-content-center mb-4">
+                </div>
+                <h5 class="mb-3">Julien P.</h5>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="px-xl-3">
+                  <i class="fas fa-quote-left pe-2"></i>Livraison rapide et service ultra pro.
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center mb-0">
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4 mb-0">
+                <div class="d-flex justify-content-center mb-4">
+                </div>
+                <h5 class="mb-3">Sophie R.</h5>
+                <div class="stars">⭐⭐⭐⭐</div>
+                <p class="px-xl-3">
+                  <i class="fas fa-quote-left pe-2"></i>Expérience fluide, showroom incroyable !
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center mb-0">
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="fas fa-star fa-sm text-warning"></i>
+                  </li>
+                  <li>
+                    <i class="far fa-star fa-sm text-warning"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+    </main>
+    <footer class="text-center mt-4">
+        <div id="footer-links"></div>
+        <div id="footer-socials" class="mt-2"></div>
+        <p>&copy; 2023 LuxDrive. Tous droits réservés.</p>
+    </footer>   
+</body>
+<script src="acceuil.js"></script>
+</html>
